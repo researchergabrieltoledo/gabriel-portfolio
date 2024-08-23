@@ -1,0 +1,306 @@
+/* Estilo Global */
+body {
+    background-color: #000000;
+    color: #d3d3d3;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    background-color: #0a0a23;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo a {
+    color: #00bfff;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li a {
+    color: #00bfff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.language-switcher a {
+    color: #00bfff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Seção Hero */
+.hero {
+    text-align: center;
+    padding: 120px 20px;
+    background: linear-gradient(135deg, #000000 40%, #0a0a23);
+}
+
+.hero h1 {
+    color: #00bfff;
+    font-size: 48px;
+}
+
+.hero p {
+    color: #d3d3d3;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.btn {
+    background-color: #00bfff;
+    color: #000000;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 30px;
+    display: inline-block;
+    font-size: 18px;
+}
+
+/* Footer */
+footer {
+    background-color: #0a0a23;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+footer p {
+    color: #d3d3d3;
+    font-size: 14px;
+}
+
+footer p a {
+    color: #00bfff;
+    text-decoration: none;
+}
+
+/* Seção About */
+.about {
+    background-color: #0a0a23;
+    color: #d3d3d3;
+    padding: 50px 20px;
+}
+
+.about .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.about-left {
+    flex: 1;
+    text-align: center;
+}
+
+.profile-photo {
+    border-radius: 50%;
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+.about-right {
+    flex: 2;
+}
+
+.about-right h2 {
+    color: #00bfff;
+    margin-bottom: 20px;
+}
+
+.about-right ul {
+    list-style: none;
+    padding: 0;
+}
+
+.about-right ul li {
+    margin-bottom: 10px;
+}
+
+/* Seção Projects */
+.projects {
+    background-color: #000000;
+    padding: 50px 20px;
+}
+
+.projects .container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.projects h2 {
+    color: #00bfff;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.project-card {
+    background-color: #0a0a23;
+    border: 2px solid #00bfff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.project-card h3 {
+    color: #00bfff;
+}
+
+.project-card p {
+    color: #d3d3d3;
+    margin: 15px 0;
+}
+
+.project-card .btn {
+    background-color: #00bfff;
+    color: #000000;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+/* Seção Skills */
+.skills {
+    background-color: #0a0a23;
+    padding: 50px 20px;
+}
+
+.skills .container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.skills h2 {
+    color: #00bfff;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.skill-bar {
+    margin-bottom: 20px;
+}
+
+.skill-bar h3 {
+    color: #d3d3d3;
+    margin-bottom: 10px;
+}
+
+.bar {
+    background-color: #000000;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.level {
+    background-color: #00bfff;
+    height: 20px;
+    border-radius: 5px;
+}
+
+/* Seção Publications */
+.publications {
+    background-color: #0a0a23;
+    padding: 50px 20px;
+}
+
+.publications .container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.publications h2 {
+    color: #00bfff;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.publication-list {
+    list-style: none;
+    padding: 0;
+}
+
+.publication-list li {
+    margin-bottom: 20px;
+}
+
+.publication-list h3 {
+    color: #00bfff;
+}
+
+.publication-list p {
+    color: #d3d3d3;
+    margin: 5px 0;
+}
+
+.publication-list .btn {
+    background-color: #00bfff;
+    color: #000000;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+/* Seção Contact */
+.contact {
+    background-color: #000000;
+    padding: 50px 20px;
+}
+
+.contact .container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact h2 {
+    color: #00bfff;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact form label {
+    color: #d3d3d3;
+    margin-bottom: 5px;
+}
+
+.contact form input,
+.contact form textarea {
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #0a0a23;
+    color: #d3d3d3;
+}
+
+.contact form input[type="submit"] {
+    background-color: #00bfff;
+    color: #000000;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+}
