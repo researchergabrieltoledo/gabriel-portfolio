@@ -181,38 +181,35 @@ footer p a {
 .skills {
     background-color: #0a0a23;
     padding: 50px 20px;
-}
-
-.skills .container {
-    max-width: 1000px;
-    margin: 0 auto;
+    text-align: center;
 }
 
 .skills h2 {
     color: #00bfff;
-    text-align: center;
     margin-bottom: 40px;
 }
 
-.skill-bar {
-    margin-bottom: 20px;
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 20px;
+    justify-items: center;
 }
 
-.skill-bar h3 {
-    color: #d3d3d3;
+.skill {
+    text-align: center;
+}
+
+.skill img {
+    width: 100px;
+    height: auto;
     margin-bottom: 10px;
 }
 
-.bar {
-    background-color: #000000;
-    border-radius: 5px;
-    overflow: hidden;
-}
-
-.level {
-    background-color: #00bfff;
-    height: 20px;
-    border-radius: 5px;
+.skill p {
+    color: #d3d3d3;
+    font-size: 18px;
+    margin-top: 10px;
 }
 
 /* Seção Publications */
