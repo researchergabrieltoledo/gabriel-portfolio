@@ -33,7 +33,7 @@ Here are some of the technical skills I have acquired:
 I have contributed to various academic publications, such as:
 - **"Determination of a CO2 laser beam profile using a Smartphone camera"** - Published in the Brazilian Journal of Physics Teaching.
 
-For a full list, visit the [Publications](https://your-website-link-here) page.
+For a full list, visit the [Publications](https://researchergabrieltoledo.github.io/gabriel-portfolio/publications.html) page.
 
 ## Contact
 Feel free to reach out via [LinkedIn](https://www.linkedin.com/in/gabriel-de-toledo-paula-261a73212) or [Email](mailto:gabrieldetoledopaula280703@gmail.com).
